@@ -64,7 +64,7 @@ with PPE(max_workers=24) as exe:
  そもそもお金だけでなく事業所が多いと赤くなってしまうという性質があるので、そもそもヒートマップで出す意義はなんなのかという視点がありますが、単純に求人している事業所密度と
  考えても良さそうです（さらに、賃金が高くなればより赤くなる）
 <div align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156504-91c94800-8ad7-11e9-9d73-db8e4ce93242.png">
+  <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156717-0487f280-8adb-11e9-95b3-9c2040aa6670.png">
 </div> 
 
 ## 自分の住んでいるところを優先して検索する
