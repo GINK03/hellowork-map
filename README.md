@@ -64,15 +64,20 @@ with PPE(max_workers=24) as exe:
  そもそもお金だけでなく事業所が多いと赤くなってしまうという性質があるので、そもそもヒートマップで出す意義はなんなのかという視点がありますが、単純に求人している事業所密度と
  考えても良さそうです（さらに、賃金が高くなればより赤くなる）
 <div align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156717-0487f280-8adb-11e9-95b3-9c2040aa6670.png">
+  <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156504-91c94800-8ad7-11e9-9d73-db8e4ce93242.png">
 </div> 
 
 ## 自分の住んでいるところを優先して検索する
  Google Geocode APIから事業所の緯度経度がわかれば、自分のスマホの位置情報やIPアドレスから近い事業所をリストアップすることができます。   
 距離の測り方はL1距離としていますが、まだまだ色んな方法がありそうです。 
 <div align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156706-afe47780-8ada-11e9-9d61-70c09d007dd7.png">
+  <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156717-0487f280-8adb-11e9-95b3-9c2040aa6670.png">
 </div> 
 私は渋谷周辺なので試しに渋谷周辺で近い求人、top 1000を計算してみました。
 
+## 全国区のデータ
+ 全国区のデータをすべてプロットしようとすると激重なので、別途ローカルで実行できるhtmlをおいておきますので、自分で見てみてください
+<div align="center">
+   <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156706-afe47780-8ada-11e9-9d61-70c09d007dd7.png">
+</div>
  
