@@ -67,6 +67,8 @@ with PPE(max_workers=24) as exe:
   <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156504-91c94800-8ad7-11e9-9d73-db8e4ce93242.png">
 </div> 
 
+この一連の可視化は[データをダウンロード](https://www.dropbox.com/s/0cvmt154adaban0/hellowork-map_2019_06_09.tar.gz?dl=0)して、[このJupyterのファイル](https://github.com/GINK03/hellowork-map/blob/master/VisualizeAndSearch.ipynb)を実行すれば再現することができます。
+
 ## 自分の住んでいるところを優先して検索する
  Google Geocode APIから事業所の緯度経度がわかれば、自分のスマホの位置情報やIPアドレスから近い事業所をリストアップすることができます。   
 距離の測り方はL1距離としていますが、まだまだ色んな方法がありそうです。 
