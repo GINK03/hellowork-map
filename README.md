@@ -76,7 +76,9 @@ with PPE(max_workers=24) as exe:
 私は渋谷周辺なので試しに渋谷周辺で近い求人、top 1000を計算してみました。
 
 ## 全国区のデータ
- 全国区のデータをすべてプロットしようとすると激重なので、別途ローカルで実行できるhtmlをおいておきますので、自分で見てみてください
+ 全国区のデータをすべてプロットしようとすると激重なので、別途ローカルで実行できるhtmlをおいておきますので、自分で見てみてください  
+ 
+ [ダウンロード](https://www.dropbox.com/s/k2ttc9vfd573vdr/sample_output_total.html?dl=0)  
 <div align="center">
    <img width="100%" src="https://user-images.githubusercontent.com/4949982/59156706-afe47780-8ada-11e9-9d61-70c09d007dd7.png">
 </div>
