@@ -8,9 +8,10 @@ import os
 GOOGLE_API_GEO = os.environ['GOOGLE_API_GEO']
 url = f'https://maps.googleapis.com/maps/api/geocode/json?key={GOOGLE_API_GEO}'
 
-df = pd.read_csv('./scraping-designs/hello-work-scrape/local.csv')
+df = pd.read_csv('./local.csv')
 df = df[pd.notnull(df['所在地'])]
 
+Path('geos').mkdir(exist_ok=True)
 def pmap(arg):
     key, geos = arg
     for geo in geos:

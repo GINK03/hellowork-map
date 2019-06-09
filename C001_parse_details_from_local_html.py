@@ -28,8 +28,6 @@ for idx, path in tqdm(enumerate(paths)):
         json.dump(obj, fp=open(f'job_description_jsons/{last_fn}', 'w'), indent=2, ensure_ascii=False)
     except Exception as ex:
         print(ex)
-    #print(obj)
-    #objs.append(obj)
 
 #df = pd.DataFrame(objs)
 #df.to_csv('local.csv', index=None)
